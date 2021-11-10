@@ -1,0 +1,3 @@
+nodemon  // auto-refreshes server.js when needed
+pug -w ./views -o ./html -P  // auto compiles pug into html for some reason
+npm start // run it like heroku does

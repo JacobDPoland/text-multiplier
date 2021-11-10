@@ -1,0 +1,40 @@
+doctype html 
+html.h-100
+    head 
+        include head.pug
+        +head()
+        title Multiplier
+    body.h-100
+        div.row.h-100
+
+            div.col-sm-3.my-auto 
+            div.col-sm-6.my-auto 
+                div.card.card-block
+                    div.text-center
+                        div.container.d-flex.flex-column
+
+                            div.row
+                                div.col
+                                    text Text
+                                div.col
+                                    text Number 
+                                div.col
+                                    text 
+
+                            div.row
+                                div.col
+                                    input#text(placeholder="Put text here")
+                                div.col
+                                    input#number(placeholder="")
+                                div.col
+                                    button#submit()
+                                        text Submit
+
+                            div.row
+                                text#output
+            div.col-sm-3.my-auto 
+
+        
+
+        include foot.pug
+        +foot()
